@@ -28,16 +28,16 @@ If any of these images are later cropped, annotated, or otherwise modified and c
 
 - Upstream project: https://github.com/dayanegosha/thinkpad-x220-usb-c-adapter
 - Upstream author: **dayanegosha**
-- Upstream files mirrored here:
+- Upstream-derived files here:
   - `cad/reference-meshes/x220-usb-c-adapter/upstream/adapter.py`
   - `cad/reference-meshes/x220-usb-c-adapter/upstream/requirements.txt`
   - `cad/reference-meshes/x220-usb-c-adapter/LICENSE-MIT.txt`
 - Upstream generated STL: https://github.com/dayanegosha/thinkpad-x220-usb-c-adapter/blob/main/stl/X220_USB_C_adapter.stl
 - License: **MIT License**
 - Copyright: `Copyright (c) 2026 dayanegosha (https://github.com/dayanegosha)`
-- Changes to mirrored source: **none**
+- Local changes: `requirements.txt` and the MIT license text are preserved; `adapter.py` retains the upstream geometry, parameters and generation logic, with some explanatory comments shortened during import. No intentional geometry/parameter changes were made.
 
-The original MIT notice is retained verbatim in `LICENSE-MIT.txt`. The parametric Python source can regenerate the STL using its documented dependencies.
+The original MIT notice is retained verbatim in `LICENSE-MIT.txt`. The parametric Python source can regenerate the STL using its documented dependencies. For byte-for-byte upstream comparison, use the canonical upstream repository above.
 
 ## ThinkPad X220 Hard Drive Cover — verified open, link-only
 
