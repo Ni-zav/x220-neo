@@ -1,0 +1,23 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# CAD generated/exported artifacts
+cad/exports/
+*.step~
+*.FCStd1
+
+# KiCad backups/cache
+*-backups/
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Firmware build
+firmware/build/
+*.uf2
+
+# Obsidian workspace state (keep vault portable)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
