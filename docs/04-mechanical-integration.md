@@ -1,6 +1,6 @@
 ---
 title: Mechanical Integration
-updated: 2026-09-12
+updated: 2026-09-13
 ---
 
 # Mechanical Integration
@@ -25,6 +25,12 @@ The project treats the X220 exterior as a **human-interface shell**, not as a fi
 - SSD/RAM access;
 - display-controller mount.
 
+## Reference material before modelling
+
+Use the curated [X220 visual reference set](../media/reference/README.md) to understand the original assembly, bottom-case ribs/bosses, keyboard-bezel underside, motherboard cavity, cooler/exhaust area and hinges.
+
+Use the [CAD reference registry](../cad/reference-meshes/README.md) for explicitly licensed third-party geometry/generators. These references are for topology and block-out work only; measured physical geometry remains authoritative.
+
 ## CAD workflow
 
 1. Completely disassemble one X220.
@@ -37,6 +43,8 @@ The project treats the X220 exterior as a **human-interface shell**, not as a fi
 8. Run interference checks.
 9. Print only critical fit-test coupons before a whole D-cover.
 10. Build a coarse PETG shell.
+
+For a Blender-first mock-up, make separate collections/objects for the X220 shell, keyboard/hinges, donor board/cooler, service keep-outs, and new Neo parts. The first scene should answer **what collides with what**, not attempt to be photorealistic.
 
 ## Required physical measurements
 
