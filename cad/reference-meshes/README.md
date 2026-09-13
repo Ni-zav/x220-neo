@@ -26,7 +26,7 @@ The upstream project also publishes the generated binary STL:
 
 https://github.com/dayanegosha/thinkpad-x220-usb-c-adapter/blob/main/stl/X220_USB_C_adapter.stl
 
-The binary STL is intentionally not duplicated here at this stage. The exact upstream parametric source and dependency list are vendored instead, so the geometry is inspectable and regenerable rather than being an opaque mesh.
+The binary STL is intentionally not duplicated here at this stage. We vendor the inspectable parametric generator and dependency list instead. The local `adapter.py` keeps the upstream geometry, numeric parameters and generation logic; some explanatory comments were shortened during import. Use the canonical upstream repository for byte-for-byte comparison.
 
 This model is especially useful because its source documents several X220 DC-jack pocket dimensions and expresses the housing parametrically. **Re-measure your own chassis before treating those values as manufacturing dimensions.**
 
@@ -38,7 +38,7 @@ From the vendored upstream directory, create a Python environment and install th
 python adapter.py
 ```
 
-The upstream script writes `stl/X220_USB_C_adapter.stl` relative to its project root. If running the vendored copy directly, either reproduce the upstream directory layout or adjust only the output path in a project-owned derivative; record any change in `reference/ATTRIBUTIONS.md`.
+The generator expects an `stl/` output location relative to its project layout. If you alter the local output path or geometry, treat that as a project-owned derivative and record the change in `reference/ATTRIBUTIONS.md`.
 
 ## Verified-open external model: X220 hard-drive cover
 
