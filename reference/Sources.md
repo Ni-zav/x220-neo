@@ -1,6 +1,6 @@
 # Sources
 
-Research refreshed: **2026-09-12**.
+Research refreshed: **2026-09-13**.
 
 ## Primary / manufacturer
 
@@ -30,6 +30,42 @@ https://www.beacukai.go.id/barangkiriman
 https://www.beacukai.go.id/faq-impor-barang-kiriman
 
 Used for current import-duty/VAT planning rules.
+
+## X220 visual / mechanical reference set
+
+### Wikimedia Commons — Disassembled ThinkPad X220
+https://commons.wikimedia.org/wiki/Category:Disassembled_ThinkPad_X220
+
+Curated engineering-useful images are embedded in `media/reference/README.md`. The selected photographs are CC BY-SA 4.0 and their per-file authors/source pages are recorded in `reference/ATTRIBUTIONS.md`.
+
+Especially useful views include:
+
+- complete component layout;
+- magnesium lower-case interior;
+- keyboard-bezel underside;
+- motherboard/cavity with bezel removed;
+- CPU cooling assembly;
+- LCD hinges.
+
+These are visual/topological references, not substitutes for measured CAD.
+
+## X220 CAD / printable-part references
+
+### X220 DC-jack → USB-C adapter
+https://github.com/dayanegosha/thinkpad-x220-usb-c-adapter
+
+MIT-licensed parametric generator and generated STL. The generator source, dependency list, and MIT notice are vendored under `cad/reference-meshes/x220-usb-c-adapter/`. Use as a reference for the original DC-jack pocket and as an example of a reproducible X220 mechanical model; re-measure the actual chassis before manufacturing.
+
+### Thinkpad X220 Hard Drive Cover — Printables
+https://www.printables.com/model/747619-thinkpad-x220-hard-drive-cover
+
+Author: jws / `@jws_1754474`. The source page marks the original model as Creative Commons Public Domain and explicitly allows sharing, remixing and commercial use. Kept link-only for now.
+
+### Cults X220/X230 models — link-only pending license verification
+https://cults3d.com/en/3d-model/home/holder-of-hdd-ssd-for-lenovo-thinkpad-x220-and-x230
+https://cults3d.com/en/3d-model/various/capot-hdd-thinkpad-x220-x230
+
+Useful geometry exists at these pages, but the license field was not sufficiently clear in the reviewed page data, so these files are not mirrored into this repository.
 
 ## Keyboard / TrackPoint engineering references
 
